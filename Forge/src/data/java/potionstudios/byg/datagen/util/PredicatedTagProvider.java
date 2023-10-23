@@ -4,7 +4,6 @@ import net.minecraft.data.tags.TagsProvider;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.tags.TagKey;
 import potionstudios.byg.reg.RegistrationProvider;
-import potionstudios.byg.reg.RegistryObject;
 
 import java.util.ArrayList;
 import java.util.List;

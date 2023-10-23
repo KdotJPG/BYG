@@ -9,6 +9,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.*;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import potionstudios.byg.BYG;
 import potionstudios.byg.common.BYGTags;
@@ -38,7 +39,7 @@ public class BYGBlockTagsProvider extends BlockTagsProvider {
     }
 
     @Override
-    protected void addTags(HolderLookup.Provider pProvider) {
+    protected void addTags(HolderLookup.@NotNull Provider pProvider) {
         final var logs = tag(BYGTags.LOGS.byg(BYGTags.RegistryType.BLOCKS));
         final var logsThatBurn = tag(BYGTags.LOGS_THAT_BURN.byg(BYGTags.RegistryType.BLOCKS));
         tag(

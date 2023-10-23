@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import potionstudios.byg.BYG;
 import potionstudios.byg.common.world.biome.BYGBiomes;
@@ -26,7 +27,7 @@ public class BYGBiomeTagsProvider extends BiomeTagsProvider {
     }
 
     @Override
-    protected void addTags(HolderLookup.Provider pProvider) {
+    protected void addTags(HolderLookup.@NotNull Provider pProvider) {
         BYGBiomes.BIOMES_BY_TAG.asMap()
                 .forEach((tag, ros) -> {
                     if (tag.location().getNamespace().equals(BYG.MOD_ID)) {
