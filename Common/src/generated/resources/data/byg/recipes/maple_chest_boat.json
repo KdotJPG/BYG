@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "group": "chest_boat",
   "ingredients": [
     {
       "item": "minecraft:chest"
     },
     {
-      "item": "byg:maple_boat"
+      "item": "byg:maple_planks"
     }
   ],
   "result": {

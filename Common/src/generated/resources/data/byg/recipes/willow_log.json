@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "byg:willow_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "byg:willow_log"
+  }
+}

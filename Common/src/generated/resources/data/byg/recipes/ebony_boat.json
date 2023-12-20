@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "group": "boat",
   "key": {
-    "P": {
+    "#": {
       "item": "byg:ebony_planks"
     }
   },
   "pattern": [
-    "P P",
-    "PPP"
+    "# #",
+    "###"
   ],
   "result": {
     "item": "byg:ebony_boat"
-  }
+  },
+  "show_notification": true
 }

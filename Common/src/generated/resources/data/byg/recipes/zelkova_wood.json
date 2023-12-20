@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "wood",
+  "category": "building",
+  "group": "bark",
   "key": {
-    "L": {
+    "#": {
       "item": "byg:zelkova_log"
     }
   },
   "pattern": [
-    "LL",
-    "LL"
+    "##",
+    "##"
   ],
   "result": {
     "count": 3,
     "item": "byg:zelkova_wood"
-  }
+  },
+  "show_notification": true
 }

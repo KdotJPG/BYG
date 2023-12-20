@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "group": "boat",
   "key": {
-    "P": {
+    "#": {
       "item": "byg:witch_hazel_planks"
     }
   },
   "pattern": [
-    "P P",
-    "PPP"
+    "# #",
+    "###"
   ],
   "result": {
     "item": "byg:witch_hazel_boat"
-  }
+  },
+  "show_notification": true
 }

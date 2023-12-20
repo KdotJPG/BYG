@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "wooden_button",
+  "category": "redstone",
   "ingredients": [
     {
       "item": "byg:green_enchanted_planks"
